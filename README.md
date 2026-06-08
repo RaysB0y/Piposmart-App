@@ -215,10 +215,14 @@ pipolaundry/
 │       │   ├── 📁 services/             # API services
 │       │   ├── 📁 models/               # Data models
 │       │   └── 📁 utils/                # Utilities
-│       ├── 📄 pubspec.yaml              # Flutter dependencies
-│       └── 📁 assets/                   # Assets (images, fonts)
+│       └── 📄 pubspec.yaml              # Flutter dependencies
+│        
+├── 📁 postman/                          # Postman collection
+│   └── 📄 PiposmartAPICollection.json   # Postman API collection
 │
-└── 🐳 docker-compose.yml                # Docker Compose (PostgresSQL Browser)
+├── 📄 README.md                         # Documentation
+└── 🐳 docker-compose.yml                # Docker Compose (PostgreSQL)
+
 
 ```
 
