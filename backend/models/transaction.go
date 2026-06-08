@@ -12,8 +12,8 @@ type Transaction struct {
 	Item             Item      `json:"item" gorm:"foreignKey:ItemID"`
 	Quantity         int       `json:"quantity"`
 	TotalPrice       int       `json:"total_price"`
-	PaymentStatus    string    `json:"payment_status"` // "lunas" or "belum"
-	OrderStatus      string    `json:"order_status"`   // "diterima", "diproses", "selesai", "diambil"
+	PaymentStatus    string    `json:"payment_status"` 
+	OrderStatus      string    `json:"order_status"`  
 	OutletName       string    `json:"outlet_name"`
 	EstimatedAt      time.Time `json:"estimated_at"`
 	CreatedAt        time.Time `json:"created_at"`

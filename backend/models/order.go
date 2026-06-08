@@ -12,7 +12,7 @@ type Order struct {
     Item        Item      `json:"item" gorm:"foreignKey:ItemID"`
     Quantity    int       `json:"quantity"`
     TotalPrice  int       `json:"total_price"`
-    Status      string    `json:"status" gorm:"default:diterima"` // diterima, diproses, selesai, diambil
+    Status      string    `json:"status" gorm:"default:diterima"` 
     CreatedAt   time.Time `json:"created_at"`
     UpdatedAt   time.Time `json:"updated_at"`
 }

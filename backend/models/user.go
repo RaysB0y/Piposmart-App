@@ -13,7 +13,7 @@ type User struct {
     Password  string    `json:"-"`
     Role      string    `json:"role" gorm:"default:karyawan"`
     OutletID  *uint     `json:"outlet_id"`
-    Outlet    *Outlet   `json:"outlet,omitempty" gorm:"foreignKey:OutletID"` // ← Relasi ke outlet
+    Outlet    *Outlet   `json:"outlet,omitempty" gorm:"foreignKey:OutletID"` 
     CreatedAt time.Time `json:"created_at"`
     UpdatedAt time.Time `json:"updated_at"`
 }
