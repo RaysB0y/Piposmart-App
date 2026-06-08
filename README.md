@@ -163,7 +163,7 @@
 ### Backend
 | Teknologi | Versi | Kegunaan |
 |-----------|-------|----------|
-| **Golang** | 1.21 | Bahasa pemrograman |
+| **Golang** | 1.26 | Bahasa pemrograman |
 | **Gin Framework** | 1.9.1 | Web framework & routing |
 | **GORM** | 1.25.5 | ORM untuk database |
 | **JWT** | 5.0.0 | Autentikasi token |
@@ -174,7 +174,7 @@
 | Teknologi | Versi | Kegunaan |
 |-----------|-------|----------|
 | **PostgreSQL** | 15 | Database utama |
-| **Docker** | - | Containerization (opsional) |
+| **Docker** | 29.x | Containerization |
 
 ---
 
